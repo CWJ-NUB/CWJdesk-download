@@ -8,13 +8,13 @@
 
 ## 直接下载
 
-**最新版 v0.1.9（Windows 64 位）**
+**最新版 v0.2.1（Windows 64 位）**
 
-https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.1.9/CWJdesk-0.1.9-x64-setup.exe
+https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.2.1/CWJdesk-0.2.1-x64-setup.exe
 
-- 文件名：`CWJdesk-0.1.9-x64-setup.exe`
-- 大小：4.75 MiB
-- SHA256：`5d4491ca9da3eb4df764958ba3bb307dff260db6df2ed870f07bd38c0861bbee`
+- 文件名：`CWJdesk-0.2.1-x64-setup.exe`
+- 大小：4.85 MiB
+- SHA256：`4cd05ee1d5b85a43c0402bfac1dde2c8ca5e3c2d0f1dc37e040c77e34537a8be`
 
 也可以打开 [Releases 页面](https://github.com/CWJ-NUB/CWJdesk-download/releases) 选择其它版本。
 
@@ -48,10 +48,14 @@ https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.1.9/CWJdesk-0.1
 
 **互动**
 - 跟随真实键盘输入，猫的爪子会落在对应键位上
-- 鼠标移动时视线跟随
+- 鼠标移动时视线跟随；打字或用手柄时桌上的鼠标模型会自己收起，鼠标一动就回来
 - 点击有反应，可触发伸懒腰、挥手、比心等动作
-- 空闲动作频率可调（低 / 正常 / 高）
+- 空闲动作 11 种可选勾选（歪头 / 抖耳 / 慢眨眼 / 张望 / 甩尾 / 伸懒腰 / 舔爪 / 甩头 / 竖耳 / 看键盘 / 打呼噜），频率可调（低 / 正常 / 高）
 - 说话气泡，可自定义台词
+
+**声音**
+- 真实机械键盘按键音：逐键录音采样（NovelKeys Cream 音色，MIT），默认关闭
+- 呼噜声随点击与抚摸变化
 
 **其它**
 - 置顶悬浮、点击穿透、开机自启
@@ -74,10 +78,10 @@ project: CWJ 桌面宠物 (CWJ Desktop Pet)
 repo: https://github.com/CWJ-NUB/CWJdesk-download
 platform: windows-x64
 latest_release_api: https://api.github.com/repos/CWJ-NUB/CWJdesk-download/releases/latest
-latest_version: 0.1.9
-asset_name: CWJdesk-0.1.9-x64-setup.exe
-download_url: https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.1.9/CWJdesk-0.1.9-x64-setup.exe
-sha256: 5d4491ca9da3eb4df764958ba3bb307dff260db6df2ed870f07bd38c0861bbee
+latest_version: 0.2.1
+asset_name: CWJdesk-0.2.1-x64-setup.exe
+download_url: https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.2.1/CWJdesk-0.2.1-x64-setup.exe
+sha256: 4cd05ee1d5b85a43c0402bfac1dde2c8ca5e3c2d0f1dc37e040c77e34537a8be
 installer_type: NSIS, per-user (no admin required)
 ```
 
