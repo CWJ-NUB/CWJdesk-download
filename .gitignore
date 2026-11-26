@@ -1,0 +1,9 @@
+# 安装包不进 git 历史，统一放在 Releases 里
+*.exe
+*.msi
+*.zip
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+desktop.ini
