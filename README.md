@@ -8,15 +8,27 @@
 
 ## 直接下载
 
-**最新版 v0.2.1（Windows 64 位）**
+**最新版 v0.2.2（Windows 64 位）**
 
-https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.2.1/CWJdesk-0.2.1-x64-setup.exe
+https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.2.2/CWJdesk-0.2.2-x64-setup.exe
 
-- 文件名：`CWJdesk-0.2.1-x64-setup.exe`
-- 大小：4.85 MiB
-- SHA256：`4cd05ee1d5b85a43c0402bfac1dde2c8ca5e3c2d0f1dc37e040c77e34537a8be`
+- 文件名：`CWJdesk-0.2.2-x64-setup.exe`
+- 大小：4.86 MiB
+- SHA256：`cb2336a3247e7292dcade54ccaa285d3cbde974ee3c9500c69f65a2794eaf50a`
 
 也可以打开 [Releases 页面](https://github.com/CWJ-NUB/CWJdesk-download/releases) 选择其它版本。
+
+## 本版更新（0.2.2）
+
+新增**宠物档案**，像以前的电子宠物一样，猫有自己的身份和状态了：
+
+- 菜单侧栏多了「宠物档案」页，可以给猫**起名字**（最多 12 个字，菜单里改，随时能改）
+- 等级与成长值：陪你敲的每一个键都会累积成长值，升级有小称号
+- 四项状态：饱食度 / 清洁度 / 心情 / 精力，会随时间自然下滑，太久没管会有点蔫
+- 三个属性：亲密度 / 灵性 / 体力，由长期的陪伴与互动养出来
+- 档案里能直接**喂食、洗澡、摸头**，猫会有对应反应
+- 领养日期、陪伴天数、累计按键、累计互动等记录一目了然
+- 老用户升级后会自动读取历史键盘统计补上成长值，不用从头开始
 
 ## 安装
 
@@ -53,6 +65,11 @@ https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.2.1/CWJdesk-0.2
 - 空闲动作 11 种可选勾选（歪头 / 抖耳 / 慢眨眼 / 张望 / 甩尾 / 伸懒腰 / 舔爪 / 甩头 / 竖耳 / 看键盘 / 打呼噜），频率可调（低 / 正常 / 高）
 - 说话气泡，可自定义台词
 
+**养成**
+- 宠物档案：自定义名字、等级 / 成长值、饱食度 / 清洁度 / 心情 / 精力四项状态
+- 亲密度 / 灵性 / 体力三项长期属性，喂食、洗澡、摸头都能涨
+- 领养日期、陪伴天数、累计按键与互动记录
+
 **声音**
 - 真实机械键盘按键音：逐键录音采样（NovelKeys Cream 音色，MIT），默认关闭
 - 呼噜声随点击与抚摸变化
@@ -78,10 +95,10 @@ project: CWJ 桌面宠物 (CWJ Desktop Pet)
 repo: https://github.com/CWJ-NUB/CWJdesk-download
 platform: windows-x64
 latest_release_api: https://api.github.com/repos/CWJ-NUB/CWJdesk-download/releases/latest
-latest_version: 0.2.1
-asset_name: CWJdesk-0.2.1-x64-setup.exe
-download_url: https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.2.1/CWJdesk-0.2.1-x64-setup.exe
-sha256: 4cd05ee1d5b85a43c0402bfac1dde2c8ca5e3c2d0f1dc37e040c77e34537a8be
+latest_version: 0.2.2
+asset_name: CWJdesk-0.2.2-x64-setup.exe
+download_url: https://github.com/CWJ-NUB/CWJdesk-download/releases/download/v0.2.2/CWJdesk-0.2.2-x64-setup.exe
+sha256: cb2336a3247e7292dcade54ccaa285d3cbde974ee3c9500c69f65a2794eaf50a
 installer_type: NSIS, per-user (no admin required)
 ```
 
